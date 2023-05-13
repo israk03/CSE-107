@@ -32,5 +32,5 @@ if B < 1000:
     B -= S
 
 
-print("Total interest earned: ",round(total_interest, 2))
+print(f"Total interest earned:{total_interest:.2f} ",)
 print("Final balance: ",round(B, 2))

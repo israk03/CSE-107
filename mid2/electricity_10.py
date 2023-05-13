@@ -1,4 +1,4 @@
-""" Write a code and python code that is given your electric
+""" Write a code that is given your electric
 meter readings (in kilowatt-hours) at the
 beginning and end of each month of the year.
 The algorithm determines your annual cost of
