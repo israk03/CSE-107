@@ -17,13 +17,7 @@ k = int(input("Please enter the list size: "))
 nums = []
 
 for i in range(k):
-    while True:
-        try:
-            n = int(input(f"Enter the value of list: "))
-            break
-        except ValueError:
-            print("Invalid input. Please enter a valid integer.")
-
+    n = int(input("Enter the value of list: "))
     nums.append(n)
 
 listt = reverse_list(nums)

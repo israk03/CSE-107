@@ -1,4 +1,4 @@
-""" Write an code that uses a loop (1) to
+""" Write an algorithm that uses a loop (1) to
 input 10 pairs of numbers, where each pair
 represents the score of a football game with
 the Computer State University (CSU) score
@@ -14,20 +14,20 @@ wins = 0
 losses = 0
 ties = 0
 
-for i in range(10): 
-    csu, opp = map(int,input(f"Enter the scores for game {i+1}: ").split())
+for i in range(10):
+    csu, pu = map(int,input(f"Enter the score for game {i+1}: ").split())
 
-    if csu>opp:
+    if csu > pu: 
         wins += 1
         print("CSU win.")
-    elif csu<opp:
+    elif csu < pu:
         losses += 1
         print("CSU lost.")
     else:
         ties += 1
-        print("It's tie.")
+        print("Its draw.")
 
-print(f"CSU's record is {wins}-{losses}-{ties}.")
+print(f"The record of CSU's this season {wins}-{losses}-{ties}.")
 
 if wins == 10:
-    print("Congratulations on your undefeated season")
+    print("Congratulations on your undefeated season.")
