@@ -13,7 +13,7 @@ N1 = 10, N2 = 27, N3 = 8, N4 = 13, N5 = 5 """
 
 k = int(input("Please enter the list size: "))
 
-numbers = input("Please enter a list of numbers: ").split()
+numbers = input(f"Please enter a {k} size of list of numbers: ").split()
 numbers =[int(num) for num in numbers] 
 
 listt = numbers[::-1]
