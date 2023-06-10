@@ -9,17 +9,13 @@ then when your algorithm has completed, the
 values stored in the list will be:
 N1 = 10, N2 = 27, N3 = 8, N4 = 13, N5 = 5 """
 
-def reverse_list(nums):
-    return nums[::-1]
+
 
 k = int(input("Please enter the list size: "))
 
-nums = []
+numbers = input("Please enter a list of numbers: ").split()
+numbers =[int(num) for num in numbers] 
 
-for i in range(k):
-    n = int(input("Enter the value of list: "))
-    nums.append(n)
-
-listt = reverse_list(nums)
+listt = numbers[::-1]
 
 print(listt)
